@@ -9,17 +9,18 @@ import {
     NavbarBrand
 } from 'reactstrap';
 import { NavLink } from "react-router-dom";
+import "./NavBar.css"
 // import { NavLink as Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <Nav className="Navbar">
             
-           <NavLink to='/'> Home </NavLink>
-           <NavLink to='/projects'> Projects </NavLink>
-           <NavLink to='/resume'> Resume </NavLink>
-           <NavLink to='/blog'> Blog </NavLink>
-           <NavLink to='/about'> About </NavLink>
+           <NavLink to='/' className="myLink"> Home </NavLink>
+           <NavLink to='/projects' className="myLink"> Projects </NavLink>
+           <NavLink to='/resume' className="myLink"> Resume </NavLink>
+           <NavLink to='/blog' className="myLink"> Blog </NavLink>
+           <NavLink to='/about' className="myLink"> About </NavLink>
              
         </Nav>
     );
