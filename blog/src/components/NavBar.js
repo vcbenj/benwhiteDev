@@ -1,5 +1,6 @@
 import React from "react";
 import "./../App.css";
+import myFace from './profilePic.jfif'
 import {
     Navbar,
     NavItem,
@@ -21,7 +22,7 @@ const NavBar = () => {
            <NavLink to='/resume' className="myLink"> Resume </NavLink>
            <NavLink to='/blog' className="myLink"> Blog </NavLink>
            <NavLink to='/about' className="myLink"> About </NavLink>
-             
+            <img src={myFace} alt="My Lovely Face" />
         </Nav>
     );
 }
