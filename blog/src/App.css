@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+canvas {
+  justify-content: center;
+  position: relative;
+}
 
 /* .App-header {
   background-color: #282c34;
@@ -24,6 +28,11 @@
   color: white;
 } */
 
+.resume {
+  background-color: gray;
+  align-items: center;
+  
+}
 .Navbar {
   background-color: #282c34;
   font-size: 25px;
